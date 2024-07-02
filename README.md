@@ -14,7 +14,7 @@ c) specifically honing in on the price predition for this month. ( July 2024) .
 The questions go from specific to generic.  
 
 # Video
-The video is available at : https://www.youtube.com/watch?v=Aio-fEitkPA
+The video is available at : https://youtu.be/QroDkBjgeE8
 
 # Presentation deck
 https://gitub.com/chainaim3003/LLM-fund-manager
