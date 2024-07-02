@@ -1,0 +1,17 @@
+(venv) PS C:\SATHYA\BLOCKCHAIN\web3AI\Galadriel\contracts\rag_tools> python add_knowledge_base.py -d kb -s 1500
+[Loading 1 file from kb.]
+Processing Files: 100%|████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 142.90file/s]
+Generated 3 documents from 1 files.
+Uploading documents to IPFS, please wait...done.
+Requesting indexing, please wait...done.
+Waiting for indexing to complete...done.
+Knowledge base indexed, index CID `Qmb78wgPfUSt9HaZcScPKrBGsrygRQzGaTop39b1w6gN28`.
+Use CID `QmQb24XZLzjfyy24NKJ6PVCvd5fFCWrFdiTdUeVbFChDTJ` in your contract to query the indexed knowledge base.
+
+
+
+https://gateway.pinata.cloud/ipfs/bafkreiduon46ccwwteicuqwjwikd43f7mt7xzpp6kjdheducgzoex555xa
+
+
+https://gateway.pinata.cloud/ipfs/bafkreiduon46ccwwteicuqwjwikd43f7mt7xzpp6kjdheducgzoex555xa
+
