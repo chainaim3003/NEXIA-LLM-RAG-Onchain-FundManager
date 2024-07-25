@@ -8,7 +8,7 @@ LLMs and other SLMs have created workable models for natural language processing
 However, enterprises and private companies are hesitant to utilize public domain data due to concerns about proprietary information. They prefer private databases and knowledge bases.
 To leverage the strengths of both public and private data, a solution is needed to query private data without incurring full training costs and to supply context-specific research to public systems, such as networking smart contracts for private research on public digital asset prices.
 
-## Use Case:
+## Solution - Retrieval Augmented Generation:
 
 A private research RAG can be employed, combining LLMs with a context-defined, privately indexed knowledge base. This enables a rebalancing agent to research curated, LLM-trained content within a domain-specific context using RAG and Galadriel agents.
 The solution involves retrieval augmented generation, spliced and indexed private knowledge bases, and contextualizing LLM models. This optimizes AI training costs while preserving the benefits of public data training.
