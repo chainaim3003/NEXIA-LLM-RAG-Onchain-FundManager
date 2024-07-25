@@ -2,7 +2,7 @@
 
 ## Use Case: A portfolio rebalancer in Uniswap based on research RAG and agent built in Galadriel
 
-Problem Statement:
+### Problem Statement:
 
 LLMs and other SLMs have created workable models for natural language processing, trained on public domain data. These models have undergone sufficient testing and established baselines for latencies and AI inference costs, making them appear compelling.
 However, enterprises and private companies are hesitant to utilize public domain data due to concerns about proprietary information. They prefer private databases and knowledge bases.
@@ -14,7 +14,7 @@ A private research RAG can be employed, combining LLMs with a context-defined, p
 The solution involves retrieval augmented generation, spliced and indexed private knowledge bases, and contextualizing LLM models. This optimizes AI training costs while preserving the benefits of public data training.
 Private domain data can be integrated into network systems, including permissionless ones, through oracles, allowing for the injection of query responses from private research data.
 
-Use Case:
+## Use Case:
 
 Implementation in Galadriel Web3 AI involves creating a knowledge base integrated into the Galadriel Network via an oracle. This enables private research data to be linked to smart contracts, facilitating on-chain LLM fund management and voting systems for domain arbitration.
 The Retrieval-Augmented Generation is built with [Changelly](https://changelly.com/) reports to understand the digital asset class, the investment outlook for 2024, and specific price predictions for July 2024. The query process moves from specific to generic.
