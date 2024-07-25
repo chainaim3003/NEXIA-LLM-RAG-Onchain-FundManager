@@ -68,37 +68,42 @@ The video is available at : https://youtu.be/y-GOJWzqANs
 # Presentation deck
 
 
-# HOW TO RUN NEXIA  ( devnet )
-Follow the steps to install Galadriel, and set up the on chain contracts and agents.
+## How to Run NEXIA (Devnet)
 
-(Galadriel address)
-#Agent deployed to 0x6F78f66ad057C4d429F153E33FeDF80b829A3b5b
- #deploying chatGptwithKB  
- #deploying chatGptwithKB  QmRW646Zabid4gJC5YmwpgF3q9iTCsUqymuXpp9iphQcis
-#ChatGpt deployed to 0x1F8505B459B71920Da60fd625A629fE08a0e4399 with knowledge base "QmRW646Zabid4gJC5YmwpgF3q9iTCsUqymuXpp9iphQcis"
+### Installation and Setup
+* Follow the steps to install Galadriel.
+* Set up the on-chain contracts and agents.
 
-THe smart contract can be looked up at the following address in Galadriel devnet. 
+### Deployment
+* **Agent Deployment:**
+  * Agent deployed to: 0x6F78f66ad057C4d429F153E33FeDF80b829A3b5b
+* **ChatGPT with Knowledge Base Deployment:**
+  * Knowledge base: QmRW646Zabid4gJC5YmwpgF3q9iTCsUqymuXpp9iphQcis
+  * ChatGPT deployed to: 0x1F8505B459B71920Da60fd625A629fE08a0e4399
 
-The following commands run the chat , agent interface
+### Smart Contract
+* The smart contract can be found at the following address in the Galadriel devnet: [Smart Contract Address]
 
-\Galadriel\contracts\contracts> npm run chat
+### Running the Chat and Agent Interface
+* Navigate to the `\Galadriel\contracts\contracts` directory.
+* Run the following commands:
+  * `npm run chat`
+  * `npm run agent`
 
-\Galadriel\contracts\contracts> npm run agent
-The re-balancer balances portfolio of ETH/DAI based on the prediction reports that the LLM agent narrows down to action. 
+### Rebalancer Functionality
+* The rebalancer adjusts the ETH/DAI portfolio based on LLM agent predictions.
+* **Example:**
+  * Initial WETH balance: 1 ETH
+  * Final WETH balance: 0.99 ETH
+  * Initial DAI balance: 0 DAI
+  * Final DAI balance: 342.4783756098569 DAI
 
-Example snippet
+### Next Steps
+* Incorporate cross-chain capabilities.
+* Implement webhooks for integration.
 
-SimpleSwap
-WETH  balance amount Before :  BigNumber { value: "10000000000000000000" }
-signer address   :  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-WETH  balance amount After :  BigNumber { value: "9900000000000000000" }
-DAI Balance Before : 0
-DAI Balance After  : 342.4783756098569
-Portfolio reblanced by  342.4783756098569
-
-
-
-# Whats next ?
-Augment with cross-chain functionality and hooks.
+**Note:** Replace placeholders like "[Smart Contract Address]" with actual values.
+ 
+**Would you like me to elaborate on any specific section or provide additional details?**
 
 
