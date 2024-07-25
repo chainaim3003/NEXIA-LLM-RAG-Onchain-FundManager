@@ -70,6 +70,8 @@ The video is available at : https://youtu.be/y-GOJWzqANs
 
 # HOW TO RUN NEXIA  ( devnet )
 Follow the steps to install Galadriel, and set up the on chain contracts and agents.
+
+(Galadriel address)
 #Agent deployed to 0x6F78f66ad057C4d429F153E33FeDF80b829A3b5b
  #deploying chatGptwithKB  
  #deploying chatGptwithKB  QmRW646Zabid4gJC5YmwpgF3q9iTCsUqymuXpp9iphQcis
