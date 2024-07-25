@@ -25,7 +25,7 @@ Private domain data can be integrated into network systems, including permission
 
 Implementation in Galadriel Web3 AI involves creating a knowledge base integrated into the Galadriel Network via an oracle. This enables private research data to be linked to smart contracts, facilitating on-chain LLM fund management and voting systems for domain arbitration.
 
-The retrieval augmented generation is built with Changelly reports to provide an understanding of:
+The retrieval augmented generation is built with private research (  mimiced by Changelly reports ) to provide an understanding of:
 
 * The digital asset class
 * Investment outlook for the asset class in 2024
