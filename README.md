@@ -1,26 +1,42 @@
-# NEXIA (Networked Expertise and Contextual Intelligent Assistant)
+## NEXIA (Networked Expertise and Contextual Intelligent Assistant)
 
-## Use Case: A portfolio rebalancer in Uniswap based on research RAG and agent built in Galadriel
+## **Use Case:** A portfolio rebalancer in Uniswap based on research RAG and agent built in Galadriel
 
-### Problem Statement:
+## **Problem Statement:**
 
-LLMs and other SLMs have created workable models for natural language processing, trained on public domain data. These models have undergone sufficient testing and established baselines for latencies and AI inference costs, making them appear compelling.
-However, enterprises and private companies are hesitant to utilize public domain data due to concerns about proprietary information. They prefer private databases and knowledge bases.
-To leverage the strengths of both public and private data, a solution is needed to query private data without incurring full training costs and to supply context-specific research to public systems, such as networking smart contracts for private research on public digital asset prices.
+Large Language Models (LLMs) and Small Language Models (SLMs) have been trained on public domain data, creating workable models for natural language processing. These models have undergone sufficient testing and established baselines for latency and AI inference costs, making them appear attractive.
 
-## Solution - Retrieval Augmented Generation:
+However, enterprises and private companies are hesitant to utilize them due to concerns about proprietary information. They prefer private databases and knowledge bases.
+
+## The purpose of NEXIA
+**NEXIA** aims to bridge this gap by leveraging the strengths of both public and private data. It enables querying private data without incurring full training costs and supplying context-specific research to public systems, such as networking smart contracts for private research on public digital asset prices.
+
+**Use Case:**
 
 A private research RAG can be employed, combining LLMs with a context-defined, privately indexed knowledge base. This enables a rebalancing agent to research curated, LLM-trained content within a domain-specific context using RAG and Galadriel agents.
-The solution involves retrieval augmented generation, spliced and indexed private knowledge bases, and contextualizing LLM models. This optimizes AI training costs while preserving the benefits of public data training.
+
+## **Solution:**
+
+The core components include retrieving augmented generation, splicing and indexing private knowledge bases, and contextualizing LLM models. This approach optimizes AI training costs while preserving the benefits of public data training.
+
 Private domain data can be integrated into network systems, including permissionless ones, through oracles, allowing for the injection of query responses from private research data.
 
-## Use Case:
+**Use Case:**
 
 Implementation in Galadriel Web3 AI involves creating a knowledge base integrated into the Galadriel Network via an oracle. This enables private research data to be linked to smart contracts, facilitating on-chain LLM fund management and voting systems for domain arbitration.
-The Retrieval-Augmented Generation is built with [Changelly](https://changelly.com/) reports to understand the digital asset class, the investment outlook for 2024, and specific price predictions for July 2024. The query process moves from specific to generic.
+
+The retrieval augmented generation is built with Changelly reports to provide an understanding of:
+
+* The digital asset class
+* Investment outlook for the asset class in 2024
+* Specific price predictions for July 2024
+
+The query process moves from specific to generic.
 
 ## Video
-The video is available at: https://youtu.be/y-GOJWzqANs
+
+The video is available at: [https://youtu.be/y-GOJWzqANs](https://youtu.be/y-GOJWzqANs)
+
 
 ## Presentation deck
 https://prezi.com/view/884EVai4o3vI8WgCd7HX/
